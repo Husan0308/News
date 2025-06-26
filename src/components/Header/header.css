@@ -1,0 +1,23 @@
+header {
+    height: 280px;
+    background-image: url(../../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    cursor: pointer;
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: .375rem;
+}

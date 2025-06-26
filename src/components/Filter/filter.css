@@ -1,0 +1,39 @@
+.filter {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.filter-content {
+    padding: 0 25px;
+    height: 70px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.filter-content ::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.120rem;
+    flex: 0 0 auto;
+}
+filter-content p:hover {
+    transition: 0.3s;
+    color: #67676760;
+}
+
+p.active {
+    color: #7ec76e;
+}
